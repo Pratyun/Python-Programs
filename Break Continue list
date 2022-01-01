@@ -1,0 +1,9 @@
+while True: #True conditions will always return values
+    line = input(">")
+    if line[0] == "z":
+        continue #ignore the input
+    if line == "done":
+        break #jump out of the loop
+    print(line)
+    print("DONE")
+print("KING")
