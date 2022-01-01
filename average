@@ -1,0 +1,16 @@
+# Python-Programs
+Python Practice programs
+
+#program for average of a list using for
+#for is used calculate val of list seperately
+
+avg=0
+sum=0
+list=[9,41,12,3,34,15]
+for r in list:
+    sum = sum+r
+    avg = (avg+r)/6
+
+print("sum=",sum)
+print("avg=",avg)
+
